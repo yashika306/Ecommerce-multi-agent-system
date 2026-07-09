@@ -25,7 +25,7 @@ def save_shipping_address(address: str, tool_context: ToolContext) -> dict:
 # then hands off to its own sub-agent (order_summary_agent).
 checkout_agent = LlmAgent(
     name="checkout_agent",
-    model="gemini-flash-latest",
+    model="gemini-2.5-flash-lite",
     description=(
         "Collects the user's shipping address to complete an order, "
         "then hands off to the order summary agent."

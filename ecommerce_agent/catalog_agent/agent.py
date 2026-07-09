@@ -41,7 +41,7 @@ def save_cart(category: str, item: str, quantity: int, price: float, tool_contex
 # rest of the agent's logic.
 catalog_agent = LlmAgent(
     name="catalog_agent",
-    model="gemini-flash-latest",
+    model="gemini-2.5-flash-lite",
     description=(
         "Helps the user browse product categories and add items to their "
         "cart, then hands off to checkout."

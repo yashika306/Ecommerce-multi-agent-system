@@ -41,7 +41,7 @@ def save_user_info(name: str, email: str, mobile: str, tool_context: ToolContext
 # user; control does NOT automatically bounce back to this root agent.
 ecommerce_agent = LlmAgent(
     name="ecommerce_agent",
-    model="gemini-flash-latest",
+    model="gemini-2.5-flash-lite",
     description=(
         "Root e-commerce agent. Greets the user, collects their profile "
         "info, and routes them to the right sub-agent based on intent."
