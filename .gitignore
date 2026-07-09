@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+session.db
+sessions.db
+ecommerce_agent/.env
