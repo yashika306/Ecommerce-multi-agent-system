@@ -20,7 +20,7 @@ def save_shipping_address(address: str, tool_context: ToolContext) -> dict:
 # order confirmation screen you'd see on Amazon/Flipkart after checkout.
 order_summary_agent = LlmAgent(
     name="order_summary_agent",
-    model="gemini-2.5-flash-lite",
+    model="gemini-3.1-flash-lite",
     description=(
         "Reads the complete order information from session state and "
         "generates a friendly, human-readable order summary for the user."
